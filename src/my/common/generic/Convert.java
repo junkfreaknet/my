@@ -1,7 +1,6 @@
 
 package my.common.generic;
 
-//import my.common.generic.constants;
 import my.common.date.Date;
 
 public class Convert {
