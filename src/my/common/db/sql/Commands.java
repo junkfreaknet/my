@@ -1,4 +1,4 @@
-package my.common.db.sqlstrings;
+package my.common.db.sql;
 
 import my.commons.generic.Constants;
 

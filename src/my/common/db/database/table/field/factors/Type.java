@@ -5,6 +5,7 @@ import my.common.generic.Constants;
 public class Type {
 
 	private String type;
+	private Integer type_int;
 	
 	//constructors
 	public Type() {
@@ -20,5 +21,9 @@ public class Type {
 	//getter
 	public String get() {
 		return this.type;
+	}
+	//setter
+	public void set(String in) {
+		this.type=in;
 	}
 }

@@ -21,4 +21,8 @@ public class IsNullable {
 	public boolean get() {
 		return this.isnullable;
 	}
+	//setter
+	public void set(boolean in) {
+		this.isnullable=in;
+	}
 }

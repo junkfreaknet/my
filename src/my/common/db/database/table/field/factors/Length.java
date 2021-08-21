@@ -4,7 +4,7 @@ import my.common.generic.Constants;
 
 public class Length {
 	
-	private int length;
+	private Integer length;
 	
 	//constructors
 	public Length() {
@@ -15,11 +15,15 @@ public class Length {
 	}
 	
 	//common constructor
-	private void constructorCommon(int length) {
+	private void constructorCommon(Integer length) {
 		this.length=length;
 	}
 	//getter
-	public int get() {
+	public Integer get() {
 		return this.length;
+	}
+	//setter
+	public void set(Integer in) {
+		this.length=in;
 	}
 }

@@ -30,6 +30,8 @@ public class Constants {
     //system exit code
     public static final int CS_EXIT_OK=0;
     
+    public static final int CS_Exit_ERROR_01=1;
+    
     
     //no element
     public static final int CS_ARRAY_HAS_NO_ELEMENT=0;

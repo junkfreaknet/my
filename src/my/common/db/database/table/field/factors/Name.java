@@ -22,4 +22,8 @@ public class Name {
 	public String get() {
 		return this.name;
 	}
+	//setter
+	public void set(String in) {
+		this.name=in;
+	}
 }
